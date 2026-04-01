@@ -1,0 +1,56 @@
+@import url("https://rsms.me/inter/inter.css");
+body {
+    max-width: 980px;               /* overall readable width */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(20px, 4vw, 48px);
+    padding-right: clamp(20px, 4vw, 48px);
+    box-sizing: border-box;
+}
+
+
+
+body, body * {
+    font-family:
+            Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+p, p * {
+    font-family:
+            Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+b, b * {
+    font-family:
+            Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+H2, H2 * {
+    font-family:
+            Inter,sans-serif;
+    font-size: 40px;
+    line-height: 3;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+H3, H3 * {
+    font-family:
+            Inter,sans-serif;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
